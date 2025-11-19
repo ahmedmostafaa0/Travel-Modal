@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+@theme{
+    --animate-earth: earth 10s infinite linear;
+    @keyframes earth {
+        0%{
+            background-position: 0 center;
+        }
+        100%{
+            background-position: 1000% center;
+        }
+    }
+}
