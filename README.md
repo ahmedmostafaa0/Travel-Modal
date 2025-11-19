@@ -1,36 +1,63 @@
-# Travel Modal
+# 🛫 Travel Modal
 
-A simple interactive flight-booking UI built with React and Tailwind CSS, featuring smooth animations, a 3D-styled button, and an animated modal for displaying travel offers.
+A small React project that displays a stylish animated **travel booking modal** with dynamic flight offers, rotating images, and UI transitions.  
+The project includes a “Book your flight” button that triggers a modal with travel photos, offers, and animated elements such as a spinning Earth and plane icons.
 
-## Features
-- 3D animated “Book your flight” button
-- Smooth modal open/close transitions
-- Click-outside-to-close behavior
+## 🚀 Features
+
+- Animated **modal popup**
+- “Click outside to close” behavior
 - Spinning Earth animation
-- Randomly rotated travel images
-- Responsive and clean UI
+- Randomly rotated travel images for a scattered-photo effect
+- Dynamic flight offers displayed from an array
+- Smooth UI interactions using TailwindCSS animations
+- Clean component structure with a separate background component (`BG`)
 
-## Technologies Used
-- React
-- Tailwind CSS
-- JavaScript (ES6+)
+## 📂 Project Structure
 
-## Project Setup
+```
+src/
+ ├── Components/
+ │    └── BG.jsx
+ ├── App.jsx
+ ├── data.js
+ ├── images / assets (plane.png, earth.jpg, cancel.jpg, etc.)
+```
+
+## 🛠️ Technologies Used
+
+- React  
+- Tailwind CSS  
+- JavaScript (ES6+)  
+- CSS animations  
+
+## ▶️ How to Run
 
 1. Clone the repository:
-   git clone https://github.com/ahmedmostafaa0/Travel-Modal
 
-2. Navigate into the project:
-   cd Travel-Modal
+```bash
+git clone https://github.com/ahmedmostafaa0/Travel-Modal
+```
 
-3. Install dependencies:
-   npm install
+2. Install dependencies:
 
-4. Run the development server:
-   npm run dev
+```bash
+npm install
+```
 
-## Preview
-A modal pops up with animated elements, a rotating Earth, travel images, and flight offers.
+3. Start the development server:
 
-## License
-This project is open-source and free to use.
+```bash
+npm run dev
+```
+
+4. Open in browser:
+
+```
+http://localhost:5173
+```
+
+## 🙌 Author
+
+**Ahmed Mostafa**  
+GitHub: https://github.com/ahmedmostafaa0
